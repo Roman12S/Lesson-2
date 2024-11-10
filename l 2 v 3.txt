@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        final int VALUE = -1, FIRSTVALUE = 0, SECONDVALUE = 1;
+        switch (VALUE) {
+            case VALUE:
+                System.out.println("Красный");
+                break;
+            case FIRSTVALUE:
+                System.out.println("Желтый");
+                break;
+            case SECONDVALUE:
+                System.out.println("Зеленый");
+                break;
+            default:
+                System.out.println("arrra");
+        }
+    }
+}

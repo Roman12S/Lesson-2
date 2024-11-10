@@ -1,0 +1,10 @@
+public class Main {
+    public static boolean checkSum(int a, int b) {
+        int check = a + b;
+        return (check >= 10 && check <= 20);
+    }
+    public static void main(String[] args) {
+
+        System.out.println(checkSum(5, 5));
+    }
+}
